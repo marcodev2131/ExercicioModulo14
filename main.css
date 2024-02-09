@@ -1,0 +1,168 @@
+/* Adicione este conteúdo no arquivo main.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1c1b18;
+    color: #e0dcca;
+}
+
+#cabecalho {
+    background-color: #bd7120;
+}
+
+.section-title {
+    color: #ffd700;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+}
+
+.nav-pills .nav-link {
+    color: #e0dcca;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #bd7120;
+}
+
+.nav-pills .active, .nav-pills .show>.nav-link {
+    background-color: #bd7120;
+}
+
+.btn {
+    background-color: #bd7120;
+    border: 1px solid #ffd700;
+    color: #ffd700;
+}
+
+.btn:hover {
+    background-color: #ffd700;
+    color: #3b3024;
+}
+
+.social-links a {
+    color: #ffd700;
+}
+
+.social-links a:hover {
+    color: #bd7120;
+}
+
+#sobre-o-jogo,
+#eventos,
+#personagens,
+#fale-conosco {
+    background-color: #3b3024;
+    border-bottom: 1px solid #ffd700;
+}
+
+#sobre-o-jogo p,
+#eventos p,
+#personagens p,
+#fale-conosco p {
+    color: #e0dcca;
+}
+
+#sobre-o-jogo h2,
+#eventos h2,
+#personagens h2,
+#fale-conosco h2,
+.section-title {
+    border-bottom: 2px solid #ffd700;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+#eventos img,
+#personagens img {
+    border: 5px solid #3b3024;
+}
+
+#eventos h3,
+#personagens h5 {
+    color: #ffd700;
+}
+
+#fale-conosco input,
+#fale-conosco textarea {
+    background-color: #3b3024;
+    border: 1px solid #ffd700;
+    color: #e0dcca;
+}
+
+#fale-conosco input:focus,
+#fale-conosco textarea:focus {
+    background-color: #ffd700;
+    color: #3b3024;
+}
+
+#fale-conosco button {
+    background-color: #ffd700;
+    border: 1px solid #ffd700;
+    color: #bd7120;
+}
+
+#fale-conosco button:hover {
+    background-color: #3b3024;
+    color: #ffd700;
+}
+
+#cabecalho .navbar-toggler-icon,
+#cabecalho .navbar-toggler:focus,
+#cabecalho .navbar-toggler:hover,
+#cabecalho .navbar-toggler:active {
+    background-color: #ffd700;
+}
+
+#cabecalho .nav-pills .nav-link {
+    color: #ffd700;
+}
+
+#cabecalho .nav-pills .nav-link:hover {
+    color: #3b3024;
+}
+
+#cabecalho .nav-pills .active,
+#cabecalho .nav-pills .show>.nav-link {
+    background-color: #ffd700;
+    color: #bd7120;
+}
+
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    align-items: center; 
+}
+
+.social-links a {
+    color: #ffd700;
+    font-size: 1.5rem;
+}
+
+.social-links a:hover {
+    color: #bd7120;
+}
+
+#fale-conosco .bi {
+    margin-right: 5px;
+}
+
+/* No seu arquivo CSS ou em um novo arquivo CSS */
+img.d-block {
+    height: 60%; /* Define a altura das imagens como 100% */
+    object-fit: cover; /* Garante que a imagem cubra completamente a área designada */
+    border-radius: 8px; /* Adiciona bordas arredondadas às imagens */
+}
+
+/* No seu arquivo CSS ou em um novo arquivo CSS */
+img.no-resize {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
